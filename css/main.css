@@ -88,4 +88,30 @@ legend {
 
 body {
   font-family: "Mulish", sans-serif;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.header__nav-logo {
+  color: #3C567B;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header__nav-list {
+  display: flex;
+  gap: 60px;
+  font-weight: 700;
+}
+.header__nav-list a {
+  color: #79899F;
+  transition: color 0.2s ease-in;
+}
+.header__nav-list a:hover {
+  color: #3C567B;
 }/*# sourceMappingURL=main.css.map */

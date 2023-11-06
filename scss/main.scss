@@ -1,3 +1,29 @@
 @import 'base/reset';
 @import 'base/base';
 
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    &-logo {
+        color: $main-text;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &-list {
+        display: flex;
+        gap: 60px;
+        font-weight: 700;
+    a {
+        color: $secondary-text;
+        transition: color 0.2s ease-in;
+    }
+    a:hover{
+        color: $main-text;
+    }
+    }
+}
