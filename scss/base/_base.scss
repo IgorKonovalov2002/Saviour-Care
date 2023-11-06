@@ -1,0 +1,17 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap');
+
+//vars
+$mulish: 'Mulish', sans-serif;
+
+//colors
+$bg: #fff;
+$secondary-bg: #F3FBFF;
+$main-text: #3C567B;
+$secondary-text: #79899F;
+$btn: #458FF6; 
+
+//styles
+body {
+    font-family: $mulish;
+}
