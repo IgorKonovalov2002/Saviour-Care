@@ -1,0 +1,20 @@
+.services {
+    background-color: $secondary-bg;
+}
+.services__title {
+    padding-top: 110px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    color: $main-text;
+    text-align: center;
+}
+.services__text {
+    margin-top: 36px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: $secondary-text;
+}
