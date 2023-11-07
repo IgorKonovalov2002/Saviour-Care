@@ -1,3 +1,4 @@
+
 .header__nav {
     display: flex;
     justify-content: space-between;
@@ -16,6 +17,9 @@
         display: flex;
         gap: 60px;
         font-weight: 700;
+        @include mediaTablet {
+            gap: 30px;
+        }
     a {
         color: $secondary-text;
         transition: color 0.2s ease-in;
@@ -32,6 +36,9 @@
     color: $main-text;
     font-weight: 700;
     line-height: 56px;
+    @include mediaTablet {
+        margin-top: 200px;
+    }
 }
 .header__text {
     margin-top: 30px;
@@ -63,5 +70,8 @@
         width: 577px;
         height: 392px;
         object-fit: contain;
+        @include mediaTablet {
+            display: none;
+        }
     }
 }
