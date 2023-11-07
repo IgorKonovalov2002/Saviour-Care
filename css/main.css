@@ -99,7 +99,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1220px;
+  padding: 0 10px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -126,6 +127,7 @@ body {
   font-size: 48px;
   color: #3C567B;
   font-weight: 700;
+  line-height: 56px;
 }
 
 .header__text {
@@ -133,6 +135,8 @@ body {
   color: #79899F;
   font-size: 19px;
   font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.38px;
 }
 
 .header__btn {
@@ -150,7 +154,14 @@ body {
 
 .header__container {
   display: flex;
+  padding: 0 10px;
 }
 .header__container-right {
   margin-top: 200px;
+}
+.header__container-img {
+  width: 577px;
+  height: 392px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=main.css.map */
