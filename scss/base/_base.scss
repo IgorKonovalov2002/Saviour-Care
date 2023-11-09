@@ -19,3 +19,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+.none {
+    display: none;
+}
+.secondary-btn {
+    border: 2px solid $btn;
+    border-radius: 55px;
+    padding: 13px 91px;
+    color: $btn;
+    font-size: 18px;
+    font-weight: 700;
+    /* line-height: 60px; */
+}
