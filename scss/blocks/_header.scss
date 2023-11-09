@@ -58,7 +58,9 @@
     border-radius: 55px;
     transition: background-color 0.2s ease-in;
     &:hover {
-        background-color: $main-text;
+        background-color: $bg;
+        color: $btn;
+        border: 2px solid $btn;
     }
 }
 .header__container {
