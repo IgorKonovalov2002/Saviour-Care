@@ -1,0 +1,28 @@
+.leading > .container {
+    display: flex;
+}
+.leading {
+    margin-top: 78px;
+    &__right {
+        max-width: 407px;
+
+        &-title {
+            padding-top: 55px;
+            color: $main-text;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 56px;
+        }
+        &-text {
+            color: $secondary-text;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            margin-top: 59px;
+        }
+        &-btn {
+            margin-top: 40px;
+        }
+    } 
+    
+}

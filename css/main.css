@@ -233,6 +233,10 @@ body {
   margin-top: 90px;
 }
 
+.services-container {
+  padding-bottom: 90px;
+}
+
 .card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
@@ -269,4 +273,32 @@ body {
   font-weight: 300;
   line-height: 28px;
   color: #79899F;
+}
+
+.leading > .container {
+  display: flex;
+}
+
+.leading {
+  margin-top: 78px;
+}
+.leading__right {
+  max-width: 407px;
+}
+.leading__right-title {
+  padding-top: 55px;
+  color: #3C567B;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.leading__right-text {
+  color: #79899F;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 59px;
+}
+.leading__right-btn {
+  margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */
